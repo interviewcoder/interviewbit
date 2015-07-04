@@ -1,4 +1,4 @@
-package array1_ArrayBug;
+package _01_ArrayBug;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package array2_SpiralMatrix;
+package _02_SpiralMatrix;
 
 import java.util.ArrayList;
 import java.util.List;

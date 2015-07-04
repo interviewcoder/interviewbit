@@ -1,4 +1,4 @@
-package array2_SpiralMatrix;
+package _02_SpiralMatrix;
 
 import static org.junit.Assert.*;
 
@@ -14,7 +14,7 @@ import org.junit.rules.Timeout;
 
 public class SolutionTest {
 
-    /** Test method for {@link array2_SpiralMatrix.Solution } */
+    /** Test method for {@link _02_SpiralMatrix.Solution } */
     Solution solution;
 
     @Rule

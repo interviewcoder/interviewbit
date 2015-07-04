@@ -1,4 +1,4 @@
-package array1_ArrayBug;
+package _01_ArrayBug;
 
 import static org.junit.Assert.*;
 
@@ -12,7 +12,7 @@ import org.junit.rules.Timeout;
 
 public class SolutionTest {
     
-    /** Test method for {@link array1_ArrayBug.Solution } */
+    /** Test method for {@link _01_ArrayBug.Solution } */
     Solution solution;
 
     @Rule
