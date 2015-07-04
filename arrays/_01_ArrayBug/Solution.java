@@ -4,7 +4,7 @@
  * 
  * Rotate an array to the right by k steps. 
  * 
- * For example, with B = 3, the array [1,2,3,4,5,6,7] is rotated to [5,6,7,1,2,3,4].
+ * For example, with B = 1, the array [1,2,3,4,5,6] is rotated to [2, 3, 4, 5, 6, 1]
  *
  *************************************************************************
  * @date : July 4, 2014
