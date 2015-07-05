@@ -66,7 +66,7 @@ public class Solution {
     private boolean notZero(String[] strs, int index) {
         int len = strs.length;
         for (int i = index; i < len; i++) {
-            if (compare(strs[i], "") != 0) {
+            if (Long.parseLong(strs[i]) != 0) {
                 return true;
             }
         }
