@@ -2,6 +2,7 @@ package _05_SpiralMatrixII;
 
 import java.util.ArrayList;
 
+/** see test {@link _05_SpiralMatrixII.SolutionDirTest } */
 public class Solution {
     public ArrayList<ArrayList<Integer>> generateMatrix(int A) {
         ArrayList<ArrayList<Integer>> res = new ArrayList<>();
