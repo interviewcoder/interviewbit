@@ -26,7 +26,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * deal with auto boxing for integer list, use equals() to compare value 
+ * deal with auto boxing for integer list, use equals() to compare value.
+ * For details see {@link _09_NArray.Test } 
  */
 public class Solution {
     // DO NOT MODIFY THE LIST
