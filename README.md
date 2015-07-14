@@ -2,7 +2,7 @@
 
 ### Problems that are not included by Leetcode (2015.07.13)
 | Problem | Link |
-| :-- : | -------| 
+| :---: | -------| 
 | L4 check points: [Find Next Greater Element](http://www.interviewbit.com/courses/programming/topics/stacks-and-queues/problems/nextgreater/) | use stack to keep indices of an ascending order |
 
 ### Reference
