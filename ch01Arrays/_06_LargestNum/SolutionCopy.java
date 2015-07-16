@@ -23,7 +23,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /** see test {@link _06_LargestNum.SolutionTest } */
-public class Solution {
+public class SolutionCopy {
 
     // DO NOT MODIFY THE LIST
     public String largestNumber(final List<Integer> A) {
