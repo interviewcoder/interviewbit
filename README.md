@@ -1,9 +1,10 @@
 ### programming problems from [interviewBit](http://www.interviewbit.com/dashboard/)
 
-### Problems that are not included by Leetcode (2015.07.13)
-| Problem | Link |
-| :---: | -------| 
+### Problems that are not included by or different from Leetcode (2015.07.13)
+| Problem in interviewBit |          Note       |
+| ----------------------- | --------------------| 
 | L4 check points: [Find Next Greater Element](http://www.interviewbit.com/courses/programming/topics/stacks-and-queues/problems/nextgreater/) | use stack to keep indices of an ascending order |
+| [Hashing] Two Sum | In leetcode, there is only one solution, InterviewBit requires to find the combination with least number for index1 |
 
 ### Reference
 
@@ -27,5 +28,6 @@
 | 006       | strings.ZIGZAG    | zig zag conversion |
 | 067       | strings.ADDBINARY | add binary numbers |
 | 068       | strings.TEXTJUST  | text justification |
+| 148       | linkedlists.SORTLIST | sort list in O(nlgn) |
 
 
