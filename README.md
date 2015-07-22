@@ -13,6 +13,7 @@
 | math.REVINT       | 007       | reverse integer (monitor Stack Overflow) |
 | math.ROMAN2INT    | 013       | convert roman number to decimal number |
 | math.FACTORIAL    | 177       | find trailing zeros in n! |
+| binarysearch.SimpleBinarySearch.SEARCH2D | 074 | convert 2D coordinates to 1D index | 
 | strings.PALINDROME | 125       | validate palindrome string |
 | strings.LCP       | 014       | longest common prefix |
 | strings.COUNT_SAY | 038       | count and say |
