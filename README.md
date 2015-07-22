@@ -12,7 +12,6 @@
 | :-------: | ----------------- | ------------- |
 | 007       | math.REVINT       | reverse integer (monitor Stack Overflow) |
 | 013       | math.ROMAN2INT    | convert roman number to decimal number |
-| 020       | stacksandqueues.PARENTHESIS | |
 | 177       | math.FACTORIAL    | find trailing zeros in n! |
 | 125       | strings.PALINDROME | validate palindrome string |
 | 014       | strings.LCP       | longest common prefix |
@@ -28,6 +27,8 @@
 | 006       | strings.ZIGZAG    | zig zag conversion |
 | 067       | strings.ADDBINARY | add binary numbers |
 | 068       | strings.TEXTJUST  | text justification |
+| 003       | hashing.REPEATSTR | hashing + two pointers |
+| 020       | stacksandqueues.PARENTHESIS | |
 | 148       | linkedlists.SORTLIST | sort list in O(nlgn) |
 
 
