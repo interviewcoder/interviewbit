@@ -27,8 +27,9 @@
 | strings.ZIGZAG    | 006       | zig zag conversion |
 | strings.ADDBINARY | 067       | add binary numbers |
 | strings.TEXTJUST  | 068       | text justification |
-| hashing.REPEATSTR | 003       | hashing + two pointers |
-| stacksandqueues.PARENTHESIS | 020       | |
+| twopointers.Tricks.CONTAINER | 011 | head - tail pointers |
 | linkedlists.SORTLIST | 148       | sort list in O(nlgn) |
+| stacksandqueues.PARENTHESIS | 020       | |
+| hashing.REPEATSTR | 003       | hashing + two pointers |
 
 
