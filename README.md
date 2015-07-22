@@ -8,27 +8,27 @@
 
 ### Reference
 
-| Leetcode# |   interviewBit    |    Problem    |
-| :-------: | ----------------- | ------------- |
-| 007       | math.REVINT       | reverse integer (monitor Stack Overflow) |
-| 013       | math.ROMAN2INT    | convert roman number to decimal number |
-| 177       | math.FACTORIAL    | find trailing zeros in n! |
-| 125       | strings.PALINDROME | validate palindrome string |
-| 014       | strings.LCP       | longest common prefix |
-| 038       | strings.COUNT_SAY | count and say |
-| 005       | strings.LONGESTPALIN | longest palindromic substring |
-|           | strings.LENGTHLAT | length of last word |
-| 151       | strings.REVWORD   |  |
-| 028       | strings.STRSTR    | implement strStr |
-|           | strings.VERSION   | |
-|           | strings.ATOI   | |
-|           | strings.VALIDNUMBER | |
-| 093       | strings.IPADDRESS | parse ip address string |
-| 006       | strings.ZIGZAG    | zig zag conversion |
-| 067       | strings.ADDBINARY | add binary numbers |
-| 068       | strings.TEXTJUST  | text justification |
-| 003       | hashing.REPEATSTR | hashing + two pointers |
-| 020       | stacksandqueues.PARENTHESIS | |
-| 148       | linkedlists.SORTLIST | sort list in O(nlgn) |
+|   interviewBit    | Leetcode# |    Problem    |
+| ----------------- | :-------: | ------------- |
+| math.REVINT       | 007       | reverse integer (monitor Stack Overflow) |
+| math.ROMAN2INT    | 013       | convert roman number to decimal number |
+| math.FACTORIAL    | 177       | find trailing zeros in n! |
+| strings.PALINDROME | 125       | validate palindrome string |
+| strings.LCP       | 014       | longest common prefix |
+| strings.COUNT_SAY | 038       | count and say |
+| strings.LONGESTPALIN | 005       | longest palindromic substring |
+| strings.LENGTHLAT |           | length of last word |
+| strings.REVWORD   | 151       |  |
+| strings.STRSTR    | 028       | implement strStr |
+| strings.VERSION   |           | |
+| strings.ATOI   |           | |
+| strings.VALIDNUMBER |           | |
+| strings.IPADDRESS | 093       | parse ip address string |
+| strings.ZIGZAG    | 006       | zig zag conversion |
+| strings.ADDBINARY | 067       | add binary numbers |
+| strings.TEXTJUST  | 068       | text justification |
+| hashing.REPEATSTR | 003       | hashing + two pointers |
+| stacksandqueues.PARENTHESIS | 020       | |
+| linkedlists.SORTLIST | 148       | sort list in O(nlgn) |
 
 
