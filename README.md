@@ -5,6 +5,7 @@
 | ----------------------- | --------------------| 
 | L4 check points: [Find Next Greater Element](http://www.interviewbit.com/courses/programming/topics/stacks-and-queues/problems/nextgreater/) | use stack to keep indices of an ascending order |
 | [Hashing] Two Sum | In leetcode, there is only one solution, InterviewBit requires to find the combination with least number for index1 |
+| [Binary Search] [Books](http://www.interviewbit.com/courses/programming/topics/binary-search/problems/books/) ] | difficult binary search |
 
 ### Reference
 
