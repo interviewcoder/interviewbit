@@ -7,6 +7,8 @@
 | [Hashing] Two Sum | In leetcode, there is only one solution, InterviewBit requires to find the combination with least number for index1 |
 | [Binary Search] [Books](http://www.interviewbit.com/courses/programming/topics/binary-search/problems/books/) ] | difficult binary search |
 | [Binary Search] [Power remainer](http://www.interviewbit.com/courses/programming/topics/binary-search/problems/pow/) | difficult: very larger power |
+| [Two Pointers] [Trick.MAXONE](http://www.interviewbit.com/courses/programming/topics/two-pointers/problems/maxone/) | See also [Leetcode][076] keep a window and update window when invariant is broken |
+
 
 ### Reference
 
@@ -31,8 +33,7 @@
 | strings.ADDBINARY | 067       | add binary numbers |
 | strings.TEXTJUST  | 068       | text justification |
 | twopointers.Tricks.CONTAINER | 011 | head - tail pointers |
+| twopointers.Trick.MAXONE | |  keep a valid window |
 | linkedlists.SORTLIST | 148       | sort list in O(nlgn) |
 | stacksandqueues.PARENTHESIS | 020       | |
 | hashing.REPEATSTR | 003       | hashing + two pointers |
-
-
