@@ -8,6 +8,7 @@
 | [Binary Search] [Books](http://www.interviewbit.com/courses/programming/topics/binary-search/problems/books/) ] | difficult binary search |
 | [Binary Search] [Power remainer](http://www.interviewbit.com/courses/programming/topics/binary-search/problems/pow/) | difficult: very larger power |
 | [Two Pointers] [Trick.MAXONE](http://www.interviewbit.com/courses/programming/topics/two-pointers/problems/maxone/) | See also [Leetcode 076] keep a window and update window when invariant is broken |
+| [Two Pointers][Trick.APP3PTR](http://www.interviewbit.com/courses/programming/topics/two-pointers/problems/array3ptr/) | use two pointers on sorted array, move the pointer to shrink gap |
 | [Two Pointers] [Sorting.DIFF](http://www.interviewbit.com/courses/programming/topics/two-pointers/problems/diffk/) | fast-slow window, not all sorted array is going to use binary search |
 
 
