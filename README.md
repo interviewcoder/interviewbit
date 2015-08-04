@@ -12,6 +12,7 @@
 | [Two Pointers] [Sorting.DIFF](http://www.interviewbit.com/courses/programming/topics/two-pointers/problems/diffk/) | fast-slow window, not all sorted array is going to use binary search |
 | [Arrays] [BucketOrSorting.HOTEL](http://www.interviewbit.com/courses/programming/topics/arrays/problems/hotel/) | Great problem, build an event queue to solve problem |
 | [Dynamic Programming] [ADJACENT](http://www.interviewbit.com/courses/programming/topics/dynamic-programming/problems/adjacent/) | apply greedy choice in adjacent neighbors for dp program |
+| [Dynamic Programming] [MAXCOIN](http://www.interviewbit.com/courses/programming/topics/dynamic-programming/problems/maxcoin/) | Minmax algorithm |
 
 
 ### Reference
