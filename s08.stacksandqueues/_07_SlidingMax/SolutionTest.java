@@ -1,9 +1,10 @@
-package _05_AssignBooks;
+package _07_SlidingMax;
 
 import static org.junit.Assert.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 import org.junit.After;
 import org.junit.Before;
@@ -13,7 +14,7 @@ import org.junit.rules.Timeout;
 
 public class SolutionTest {
     
-    /** Test method for {@link _05_AssignBooks.Solution } */
+    /** Test method for {@link _07_SlidingMax.Solution } */
     Solution solution;
 
     @Rule
@@ -31,19 +32,19 @@ public class SolutionTest {
 
     @Test
     public void Test1() {
-        ArrayList<Integer> a = new ArrayList<>(Arrays.asList(12, 34, 67, 90));
-        int b = 2;
-        int actual = solution.books(a, b);
-        int expected = 113;
+        List<Integer> A = new ArrayList<>(Arrays.asList(1, 3, -1, -3, 5, 3, 6, 7));
+        int B = 3;
+        ArrayList<Integer> actual = solution.slidingMaximum(A, B);
+        ArrayList<Integer> expected = new ArrayList<>(Arrays.asList(3, 3, 5, 5, 6, 7));
         assertEquals(expected, actual);
     }
 
     @Test
     public void Test2() {
-        ArrayList<Integer> a = new ArrayList<>(Arrays.asList(73, 58, 30, 72, 44, 78, 23, 9));
-        int b = 5;
-        int actual = solution.books(a, b);
-        int expected = 110;
+        List<Integer> A = new ArrayList<>(Arrays.asList(2, 3, 4, 2, 6, 2, 5, 1));
+        int B = 3;
+        ArrayList<Integer> actual = solution.slidingMaximum(A, B);
+        ArrayList<Integer> expected = new ArrayList<>(Arrays.asList(4, 4, 6, 6, 6, 5));
         assertEquals(expected, actual);
     }
 

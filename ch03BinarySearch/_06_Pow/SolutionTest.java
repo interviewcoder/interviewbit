@@ -56,8 +56,7 @@ public class SolutionTest {
         assertEquals(expected, actual);
     }
 
-    @Test
-    public void Test4() {
+    @Test public void Test4() {
         int A = 79161127;
         int B = 99046373;
         int C = 57263970;
@@ -73,6 +72,16 @@ public class SolutionTest {
         int C = 64735492;
         int actual = solution.pow(A, B, C);
         int expected = 20805472;
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void Test6() {
+        int A = 0;
+        int B = 0;
+        int C = 2;
+        int actual = solution.pow(A, B, C);
+        int expected = 0;
         assertEquals(expected, actual);
     }
 

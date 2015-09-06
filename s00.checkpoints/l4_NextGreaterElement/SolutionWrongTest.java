@@ -11,17 +11,17 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.Timeout;
 
-public class SolutionTest {
+public class SolutionWrongTest {
     
-    /** Test method for {@link l4_NextGreaterElement.Solution } */
-    Solution solution;
+    /** Test method for {@link l4_NextGreaterElement.SolutionWrong } */
+    SolutionWrong solution;
 
     @Rule
     public Timeout globalTimeout = new Timeout(200);
 
     @Before
     public void setUp() throws Exception {
-        solution = new Solution();
+        solution = new SolutionWrong();
     }
 
     @After
@@ -61,6 +61,9 @@ public class SolutionTest {
         assertEquals(expected, actual);
     }
 
+    /**
+     * This test will fail because method cannot find the next greater for element after 42
+     */
     @Test
     public void Test5() {
         ArrayList<Integer> a = new ArrayList<>(Arrays.asList(34, 35, 27, 42, 5, 28, 39, 20, 28));

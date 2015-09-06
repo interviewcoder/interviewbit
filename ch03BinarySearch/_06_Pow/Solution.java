@@ -10,30 +10,23 @@
 package _06_Pow;
 
 public class Solution {
-
-    public int pow(int x, int n, int p) {
-        if (n == 0) {
-            return 1 % p;
+    public int pow(int a, int b, int m) {
+        if (a == 0) {
+            return 0;
         }
-        long ans = 1;
-        long base = x;
-        while (n > 0) {
-            // We need (base ** n) % p.
-            // Now there are 2 cases.
-            // 1) n is even. Then we can make base = base^2 and n = n / 2.
-            // 2) n is odd. So we need base * base^(n-1)
-            if (n % 2 == 1) {
-                ans = (ans * base) % p;
-                n--;
-            } else {
-                base = (base * base) % p;
-                n /= 2;
+        long a1 = a % m;
+        long p = 1;
+        while (b > 0) {
+            if ((b & 1) == 1) {
+                p = (p * a1) % m;
             }
+            b /= 2;
+            a1 = (a1 * a1) % m;
         }
-        if (ans < 0) {
-            ans = (ans + p) % p;
+        if (p < 0) {
+            return (int) ((p + m) % m);
+        } else {
+            return (int) p;
         }
-        return (int) ans;
     }
-
 }
