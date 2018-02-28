@@ -31,7 +31,7 @@
 | strings.REVWORD   | 151       |  |
 | strings.STRSTR    | 028       | implement strStr |
 | strings.VERSION   |           | |
-| strings.ATOI   |           | |
+| strings.ATOI   |           | String to Integer (atoi) |
 | strings.VALIDNUMBER |           | |
 | strings.IPADDRESS | 093       | parse ip address string |
 | strings.ZIGZAG    | 006       | zig zag conversion |
