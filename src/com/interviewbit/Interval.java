@@ -25,11 +25,7 @@ public class Interval {
      */
     @Override
     public boolean equals(Object obj) {
-        if (obj == this) {
-            return true;
-        } else if (obj == null || !(obj instanceof Interval)) {
-            return false;
-        }
+        (obj==this) ? true : (obj == null || !(obj instanceof Interval)) ? false : true;
         Interval interval = (Interval) obj;
         return start == interval.start && end == interval.end;
     }
